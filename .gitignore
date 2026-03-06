@@ -1,0 +1,32 @@
+# --- Python Virtual Environment ---
+# We ignore this because others will create their own using your requirements.txt
+.venv/
+env/
+venv/
+
+# --- Python Cache & Metadata ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# --- Jupyter Notebooks ---
+# These are temporary 'autosave' files that clutter your repo
+.ipynb_checkpoints/
+
+# --- Data Files ---
+# IMPORTANT: We ignore the RAW data because it's large/external
+data/raw/BankChurners.csv
+# We usually keep 'data/processed/' empty on GitHub or ignore the CSVs inside
+data/processed/*.csv
+
+# --- System & Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Logs & Outputs ---
+*.log
